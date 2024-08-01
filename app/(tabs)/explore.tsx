@@ -3,7 +3,7 @@ import { Image, StyleSheet, Platform, Text, View } from 'react-native';
 export default function TabTwoScreen() {
   return (
     <View style={styles.container}>
-    <Text>WThis is the explore page.</Text>
+    <Text>This is the explore page.</Text>
     </View>
   );
 }

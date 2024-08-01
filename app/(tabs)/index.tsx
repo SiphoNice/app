@@ -1,9 +1,10 @@
 import { Image, StyleSheet, Platform, Text, View } from 'react-native';
+import Login from '../Screens/LoginScreen/Login';
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-    <Text>We are working together....</Text>
+       <Login />
     </View>
   );
 }
@@ -12,7 +13,6 @@ const styles = StyleSheet.create({
   container:{
     flex:1,
     backgroundColor: "#ffffff",
-    alignItems:'center',
-    justifyContent:'center'
+    paddingTop: 20,
   }
 });
